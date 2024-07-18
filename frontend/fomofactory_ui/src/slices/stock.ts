@@ -14,8 +14,8 @@ const initialState: StockState = {
 export const fetchStocks = createAsyncThunk(
   "stocks/fetchStocks",
   async () => {
-    const apiUrl = 'http://localhost:3000';
-    const apiKey = 'p3mCtLUwCx';
+    const apiUrl = process.env.API_URL;
+    const apiKey = process.env.API_KEY;
     try {
       const response = await fetch(`${apiUrl}/api/v1/stocks`, {
         method: 'GET',

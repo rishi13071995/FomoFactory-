@@ -6,6 +6,7 @@ Databse:-MongoDB
 ## Backend Env:- 
 MONGODB_CONNECTION_STRING="mongodb"  
 STOCK_API_URL="https://localhost:3000"  
+STOCK_SECRET_KEY="xxxx"  
 API_VERSION="v1"  
 PORT=3000  
 APP_TOKEN="xasda"  

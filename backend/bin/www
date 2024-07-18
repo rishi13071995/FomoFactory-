@@ -54,7 +54,7 @@ const onStockTrigger = async () => {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
-            'x-api-key': 'ffa15907-be98-488a-bd50-8379be09461e'
+            'x-api-key': process.env.STOCK_SECRET_KEY
             },
             body: JSON.stringify(reqBody)
         })
