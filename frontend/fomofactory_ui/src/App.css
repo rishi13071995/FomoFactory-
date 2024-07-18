@@ -1,0 +1,69 @@
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Dropdown Styles */
+.select {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 100%; /* Full width */
+  max-width: 300px; /* Limit maximum width */
+}
+
+/* Card Styles */
+.card {
+  width: 100%;
+  max-width: 1200px; /* Adjust maximum width as needed */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px; /* Space below card */
+  overflow: auto; /* Enable scrollbar if content exceeds height */
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  color: #666;
+}
+
+/* Table Styles */
+.stock-table {
+  width: 100%;
+  max-width: 100%; /* Full width */
+  border-collapse: collapse;
+  margin-top: 20px;
+  overflow-x: auto; /* Horizontal scrollbar if table exceeds width */
+}
+
+.stock-table th, .stock-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  color: #000; /* Set text color to black */
+}
+
+.stock-table th {
+  background-color: #f2f2f2;
+}
+
+.stock-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stock-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
