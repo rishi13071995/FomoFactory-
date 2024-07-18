@@ -22,5 +22,5 @@ npm ci
 npm run dev  
 
 ## Images Attached:-
-![FomoFactory](https://drive.google.com/file/d/1edlGT1O1Q3LrOTpNDNjS5K6xoG3uKBpo/view?usp=sharing)
+![FomoFactory](https://raw.githubusercontent.com/rishi13071995/FomoFactory-/master/Example.png)
 
